@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee9f5;
+    color: #25252b;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    line-height: 1.6;
+}
+
+header {
+    height: 130px;
+
+    background-color: #07506a;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 6%;
+}
+
+header h1 {
+    color: white;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 32px;
+
+    letter-spacing: 2px;
+
+    font-weight: bold;
+}
+
+.hero {
+    width: 100%;
+    height: 315px;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.secao {
+
+    width: 88%;
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 50px 0 0;
+}
+
+.secao h2 {
+
+    color: #07506a;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 28px;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 25px;
+
+    font-weight: bold;
+}
+
+.secao p {
+
+    font-size: 16px;
+
+    line-height: 1.65;
+
+    color: #28272c;
+}
+
+.duas-colunas {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+.texto p {
+
+    margin-bottom: 28px;
+}
+
+.imagem1 {
+    width: 100%;
+    height: 315px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.cards {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 45px;
+}
+
+.card {
+
+    min-height: 125px;
+
+    border: 2px solid #07506a;
+
+    border-radius: 7px;
+
+    padding: 25px;
+
+    background-color: #9fc2df;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+
+.card-destaque {
+
+    background-color: #4e7d92;
+
+    color: white;
+}
+
+
+
+.topo {
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
+
+.preco {
+
+    font-size: 17px;
+}
+
+
+
+.galeria {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 35px;
+}
+
+
+.galeria > div {
+
+    height: 170px;
+
+    border-radius: 35px;
+
+    background-size: cover;
+
+    background-position: center;
+}
+
+
+
+
+
+
+.contato {
+
+    padding-bottom: 60px;
+}
+
+
+.contato p {
+
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+
+
+footer {
+
+    width: 100%;
+
+    min-height: 150px;
+
+    background-color: #07506a;
+
+    color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    gap: 5px;
+
+    padding: 25px;
+}
+
+
+footer p {
+
+    font-size: 16px;
+
+    font-weight: bold;
+}
